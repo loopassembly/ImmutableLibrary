@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@web3-storage/access": "^20.0.0",
+    "@web3-storage/w3up-client": "^15.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
