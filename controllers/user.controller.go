@@ -2,9 +2,9 @@ package controllers
 
 import (
 	"fmt"
-	"hackit/initializers"
-	"hackit/models"
-	"hackit/utils"
+	"IMULIB/initializers"
+	"IMULIB/models"
+	"IMULIB/utils"
 	"log"
 	"os"
 	"path/filepath"

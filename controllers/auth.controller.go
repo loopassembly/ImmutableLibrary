@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"hackit/initializers"
-	"hackit/models"
-	"hackit/utils"
+	"IMULIB/initializers"
+	"IMULIB/models"
+	"IMULIB/utils"
 	"fmt"
 	"log"
 	"net/http"
