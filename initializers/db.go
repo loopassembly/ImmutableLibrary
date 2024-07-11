@@ -2,7 +2,7 @@ package initializers
 
 import (
 	"fmt"
-	"hackit/models"
+	"IMULIB/models"
 	"log"
 	"os"
 
