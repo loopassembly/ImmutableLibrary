@@ -1,6 +1,8 @@
-module hackit
+module IMULIB
 
 go 1.22.3
+
+// go mod init IMULIB
 
 require (
 	github.com/go-playground/validator/v10 v10.16.0
