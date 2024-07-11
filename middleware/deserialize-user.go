@@ -6,8 +6,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt"
-	"hackit/initializers"
-	"hackit/models"
+	"IMULIB/initializers"
+	"IMULIB/models"
 )
 
 func DeserializeUser(c *fiber.Ctx) error {
