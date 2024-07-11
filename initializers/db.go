@@ -17,7 +17,6 @@ func ConnectDB(config *Config) {
 
 	// Set the SQLite3 database path
 	// dbPath := config.DBPath
-	// DB
 
 	con, _ := LoadConfig(".")
 
