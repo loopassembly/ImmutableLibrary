@@ -7,7 +7,7 @@ import (
     "strings"
 )
 
-// Function to upload file using Node.js script and return CID
+
 func UploadFileAndGetCID(filePath string) (string, error) {
     // Command to run node with upload.js and pass the file path as an argument
     cmd := exec.Command("node", "/home/loopassembly/Documents/hack4bengal-backend/upload.js", filePath)
@@ -35,7 +35,6 @@ func UploadFileAndGetCID(filePath string) (string, error) {
 
 
 // func main() {
-//     // Define the file path to be uploaded
 //     filePath := "/home/loopassembly/Documents/hack4bengal-backend/testing/168.png"
 
 //     // Call the function to upload file and get CID
@@ -45,6 +44,6 @@ func UploadFileAndGetCID(filePath string) (string, error) {
 //         return
 //     }
 
-//     // Print the CID returned from upload.js
+
 //     fmt.Println("CID returned from JavaScript:", cid)
 // }
