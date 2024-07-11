@@ -3,8 +3,8 @@ package utils
 import (
 	"bytes"
 	"crypto/tls"
-	"hackit/initializers"
-	models "hackit/models"
+	"IMULIB/initializers"
+	models "IMULIB/models"
 	"html/template"
 	"log"
 	"os"
