@@ -18,8 +18,6 @@ func Connect() *gorm.DB {
 
     //need to migrate book
 
-
-    //// will be done next
     err = database.AutoMigrate(&User{})
     if err != nil {
         panic("failed to auto-migrate the database")
