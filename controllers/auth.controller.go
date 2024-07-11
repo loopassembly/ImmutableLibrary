@@ -21,6 +21,7 @@ func SignUpUser(c *fiber.Ctx) error {
 	//middleware done
 	//bokks left
 	//uservallidation done
+
 	var payload *models.SignUpInput
 
 	if err := c.BodyParser(&payload); err != nil {
@@ -82,7 +83,7 @@ func SignUpUser(c *fiber.Ctx) error {
 
 	message := "We sent an email with a verification code to " + newUser.Email
 
-	// return c.Status(fiber.StatusCreated).JSON(fiber.Map{"status": "success", "data": fiber.Map{"user": models.FilterUserRecord(&newUser)}})
+	
 	return c.Status(fiber.StatusCreated).JSON(fiber.Map{"status": "success", "message": message})
 }
 
