@@ -18,4 +18,4 @@ RUN go build -o hack4bengal
 # Expose port 8080 to the outside world
 EXPOSE 8080
 
-CMD ["./hack4bengal"]
+CMD ["./"]
