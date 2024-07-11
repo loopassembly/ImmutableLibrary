@@ -3,8 +3,8 @@ package routes
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"hackit/controllers"
-	"hackit/middleware"
+	"IMULIB/controllers"
+	"IMULIB/middleware"
 )
 // all auth routes including oauth
 func SetupAuthRoutes(router fiber.Router) {
