@@ -13,10 +13,12 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
-
+* templates
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
 # Go workspace file
 go.work
 go.work.sum
+proof.ucan
+space_id.txt
